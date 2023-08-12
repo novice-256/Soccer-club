@@ -1,0 +1,52 @@
+[
+  {
+    "rank": 1,
+    "teamName": "Real Madrid",
+    "position": "up"
+  },
+  {
+    "rank": 2,
+    "teamName": "Liverpool",
+    "position": "down"
+  },
+  {
+    "rank": 3,
+    "teamName": "Manchester City",
+    "position": "up"
+  },
+  {
+    "rank": 4,
+    "teamName": "Bayern Munich",
+    "position": "down"
+  },
+  {
+    "rank": 5,
+    "teamName": "Paris Saint-Germain",
+    "position": "up"
+  },
+  {
+    "rank": 6,
+    "teamName": "Chelsea",
+    "position": "down"
+  },
+  {
+    "rank": 7,
+    "teamName": "Barcelona",
+    "position": "up"
+  },
+  {
+    "rank": 8,
+    "teamName": "Atletico Madrid",
+    "position": "down"
+  },
+  {
+    "rank": 9,
+    "teamName": "Manchester United",
+    "position": "up"
+  },
+  {
+    "rank": 10,
+    "teamName": "Borussia Dortmund",
+    "position": "down"
+  }
+]

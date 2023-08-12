@@ -1,0 +1,92 @@
+.Teams {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: max-content;
+}
+.filterdiv{
+    margin-top: 5px;
+    height: 200px;
+    border: 1px solid black;
+}
+.main-div{
+    padding-top: 1.2rem;
+    border: 1px solid black;
+}
+.right-div{
+    border: 1px solid black;
+}
+.filter {
+    cursor: pointer;
+    border-radius: 3rem;
+    background-color: #52768f;
+    text-decoration: none !important;
+    color: black;
+}
+.filter-top{
+    display: flex;
+    text-decoration: none !important;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.filter:hover {
+    border-bottom: 0px solid rgb(104, 191, 242);
+    background-color: #204466;
+}
+i{
+    cursor: pointer;
+    font-size: 1.5rem;
+};
+.TopTeams{
+    height: max-content;
+    padding: 20px;
+};
+.TopTeams table{
+    width: 80%;
+}
+.TopTeams img {
+    height: 50px;
+};
+.TopTeams th{
+    font-size: small;
+}
+.TopTeams .flag{
+    text-align: center;
+}
+.TopTeams .flag_name{
+ 
+    width: 90%;    
+  
+}
+.TopTeams th, td{
+    text-align: center;
+    margin: auto;
+}
+.TopTeams .flag_name{
+text-align: center;
+}
+.TopTeams .flag{
+margin-left: -5px;
+};
+.TopTeams .flag_name td{
+    text-align: left !important;
+}
+@media only screen and (min-width:786px) {
+    .filter{
+    height: fit-content;
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 10px;
+    margin-left: 5px;
+}
+}
+@media only screen and (max-width:786px) {
+    .filter{
+    height: fit-content;
+    font-size: 10px;
+    color: whitesmoke;
+    padding: 8px;
+    margin-left: 5px;
+}
+
+}

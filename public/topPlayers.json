@@ -1,0 +1,63 @@
+[
+    {
+      "rank": 1,
+      "playerName": "Lionel Messi",
+      "teamName": "FC Barcelona",
+      "totalGoals": 700
+    },
+    {
+      "rank": 2,
+      "playerName": "Cristiano Ronaldo",
+      "teamName": "Manchester United",
+      "totalGoals": 680
+    },
+    {
+      "rank": 3,
+      "playerName": "Robert Lewandowski",
+      "teamName": "Bayern Munich",
+      "totalGoals": 530
+    },
+    {
+      "rank": 4,
+      "playerName": "Neymar Jr.",
+      "teamName": "Paris Saint-Germain",
+      "totalGoals": 450
+    },
+    {
+      "rank": 5,
+      "playerName": "Kylian Mbappé",
+      "teamName": "Paris Saint-Germain",
+      "totalGoals": 420
+    },
+    {
+      "rank": 6,
+      "playerName": "Mohamed Salah",
+      "teamName": "Liverpool",
+      "totalGoals": 410
+    },
+    {
+      "rank": 7,
+      "playerName": "Karim Benzema",
+      "teamName": "Real Madrid",
+      "totalGoals": 400
+    },
+    {
+      "rank": 8,
+      "playerName": "Erling Haaland",
+      "teamName": "Borussia Dortmund",
+      "totalGoals": 380
+    },
+    {
+      "rank": 9,
+      "playerName": "Sergio Agüero",
+      "teamName": "Barcelona",
+      "totalGoals": 360
+    },
+    {
+      "rank": 10,
+      "playerName": "Antoine Griezmann",
+      "teamName": "Atletico Madrid",
+      "totalGoals": 350
+    }
+  ]
+  

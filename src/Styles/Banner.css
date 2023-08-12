@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.carousel-item-container {
+    max-height: 420px; 
+  }
+.carousel-item-container img {
+    max-height: 420px;
+  }
+  
+  .carousel-image {
+    max-height: 100%; 
+    width: auto; 
+    display: block; 
+    margin: 0 auto;
+  }

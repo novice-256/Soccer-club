@@ -1,0 +1,49 @@
+
+  
+.footer-links a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+.social-links a{
+  justify-content: space-around;
+  font-size: xx-large;
+}
+.fa-brands{
+
+  color: linear-gradient(95deg,#52768f,#204466);
+  font-size: xx-large;
+  justify-content: space-evenly;
+}
+.fa-brands:hover{
+  color: lightblue;
+  transition: 1s;
+}
+.cp{
+  background: linear-gradient(95deg,#1a1a1a,#204466);
+  color: white;
+  height: 80px;
+}
+.btn0{
+  background: linear-gradient(95deg,#2a5473,#204466);
+  color: white;
+  outline: none;
+  border: none;
+  height: 50px;
+  width: 190px;
+  font-size: 20px;
+}
+.btn0:hover{
+  color: lightblue;
+  transition: 1s;
+}
+h4{
+  color: rgb(234, 223, 223);
+}
+.t{
+  color: rgb(234, 223, 223);
+}
+.p1{
+  color: rgb(234, 223, 223); 
+}
+

@@ -1,0 +1,28 @@
+.news-sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.products-area{
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+.image-area{
+  width: 100%;
+  height: fit-content;
+}
+
+.description-area{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px 10px 0px 10px;
+}
+.fa-share-nodes{
+    font-size: 20px
+}

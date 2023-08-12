@@ -1,0 +1,21 @@
+.latestnews{
+    padding: 1.2rem;
+}
+.latest_news{
+    display: flex;
+    height: 450px;
+}
+h2{
+    margin: 20px;
+}
+.news_img{
+    height: 300px;
+    width: 500px;
+}
+h5{
+    float: right;
+    padding-right: 250px;
+}
+.img_txt{
+    height: 80px;
+}

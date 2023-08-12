@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px;
+  }
+  th{
+    color: rgb(64, 108, 150) !important;
+
+  }
+   td {
+ 
+    text-align: left;
+    padding: 8px;
+    color: rgba(64, 108, 150, 0.623) !important;
+  }
+  
+ 
+  h2 {
+    text-align: center;
+  }
+  
+
+ .theme-color {
+  background: #204466;
+    background: linear-gradient(120deg, #52768f, #204466) !important;
+     
+    };
+
+
+
+
+
+
+
+
+

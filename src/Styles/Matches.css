@@ -1,0 +1,41 @@
+
+.about1{
+    background-color:#020f2a;
+  }
+     .img-container{
+      overflow: hidden;
+    }
+    .img-container img{
+    transition: all 1.5s ease;
+    }
+    .img-container:hover img{
+      transform: scale(1.5);
+    } 
+  
+   .py-2{
+    font-size:medium;
+    font-style: oblique ;
+    color: white;
+    font-weight: bold;
+  } 
+  
+  .heading{
+    color:white;
+  }
+  .see{
+    margin-left: 1100px;
+    font-size: 15px;
+  margin-top: -40px;
+  }
+  
+  .back{
+    margin-right: 200px;
+  }
+  
+  .fa-solid{
+   font-size: 15px;
+   color: white;
+   margin: 10px;
+   
+  }
+  

@@ -1,0 +1,22 @@
+h2{
+    margin: 20px;
+}
+.highlights{
+    display: flex;
+    overflow-x: scroll;
+}
+.highlight{
+    padding: 1.2rem
+}
+.latest_news{
+    padding-left: 10%;
+}
+.highlights_videos, .videos_text, .news_img, .img_txt{
+    height: 200px;
+    width: 350px;
+    border-radius: 15px;
+    margin: 10px;
+};
+.videos_text, .img_txt{
+    height: 80px;
+}
