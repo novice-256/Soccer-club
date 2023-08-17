@@ -36,7 +36,6 @@ export default function TeamsDataMount() {
         const statistics = selectedPlayer.statistics[0]
         console.log(selectedPlayer)
         setPlayersDetail(<TeamPlayers
-        images ={selectedPlayer.images}
             age={selectedPlayer.age}
             nationality={selectedPlayer.nationality}
             position={selectedPlayer.position}
@@ -109,8 +108,7 @@ function  sortByNum(property) {
 </div>
 <div className='teamplayers'>
     <h1>{selected}</h1>
-    { !showTeam &&
-          <table className='table'>
+             <table className='table'>
                      <thead className="thead">
                         <tr>
                             <th>Image</th>
@@ -131,8 +129,8 @@ function  sortByNum(property) {
                          </tr>
                      </thead>
                      <tbody id="tableBody">
-                    
-                   { showData.map((item)=>{
+                     { !showTeam &&
+                    showData.map((item)=>{
 
                         if (selected=== item.nationality){
                             const stats= item.statistics
@@ -147,10 +145,10 @@ function  sortByNum(property) {
                         />
                         )
                         } 
-                    })}
+                    })
+                    }
                     </tbody>
     </table>
-                    }
     </div>
 </div>
                 </div>

@@ -7,11 +7,10 @@ export default function CardTile(props) {
   return (
     <div className='CartTitle col-md-4 col-sm-6 col-lg-3' style={{ backgroundColor: theme.backgroundColor, color: theme.color }}>
       <div className={` ${!isDark ? "lightshadow" : "darkshadow"}`} style={{ backgroundColor: theme.backgroundColor, color: theme.color }}>
-            <img src={props.flag_image} alt="Flag Image" className="card-img-top img-rounded border mx-auto d-flex"
-             style={{width:'40%'}}/>
+            <img src={props.flag_image} alt="Flag Image" className="card-img-top" />
             <div className="card-body">
-                <h3 className="cardtitle text-center my-2" >{props.name}</h3>
-                <button onClick={props.handleClick} type={"button"} className="btn btn-outline-primary mx-auto my-3 d-block btn-sm  ">View Players</button>
+                <h3 className="cardtitle mx-3 my-2">{props.name}</h3>
+                <button onClick={props.handleClick} className="btn btn-primary mx-3 my-3">more Details</button>
             </div>
       </div>
 

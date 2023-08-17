@@ -41,8 +41,8 @@ export default function Gallery() {
     //     </div>
     // );
     return (
-
-         
+        <div className="Gallery">
+            <div className="container">
                 <div className="py-4 text-center mt-3">
                     <h1>GALLERY</h1>
                     <div className="row py-3">
@@ -62,7 +62,8 @@ export default function Gallery() {
                         ))}
                     </div>
                 </div>
-            
+            </div>
+        </div>
     );
     
 }

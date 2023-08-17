@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 export default function Recent_Events() {
   return (
-
     <div className='Recent_Events'>
       <section className="about1">
         <div className="container py-5">

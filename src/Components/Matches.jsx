@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 
 export default function Matches() {
   return (
-  
+    <div className='Matches'>
       <section className="about1">
-        <div className=" py-5">
+        <div className="container py-5">
           <div className="row py-5 mt-5">
             <div className="h1">
               <h1 className="heading">UPCOMING TOURNAMENTS & EVENTS</h1>
@@ -153,6 +153,6 @@ export default function Matches() {
         </div>
         
       </section>
-   
+    </div>
   );
 }

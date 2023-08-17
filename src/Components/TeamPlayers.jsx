@@ -1,95 +1,25 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import "../Styles/Teams.css";
+import "../Styles/Teams.css"
 
 export default function TeamPlayers(props) {
-  return (
-    <div className='TeamPlayers' style={{ backgroundColor: 'rgb(32, 68, 102)', color: 'white' }}>
-      <Container>
-        <Row>
-          <Col md={12} className="text-center mb-4">
-            <img src={props.images} alt="" className="player-image" />
-          </Col>
-          <Col md={12} className="text-center">
-            <h4 className="player-name"><strong>{props.name}</strong></h4>
-            <div className="player-details" style={{ overflow: 'scroll', fontSize: '14px', padding: '10px' }}>
-              <Row>
-                <Col md={3} className="text-md-right">
-                  <strong>Age:</strong>
-                </Col>
-                <Col md={9} className="text-md-left">
-                  {props.age}
-                </Col>
-              </Row>
-              <Row>
-                <Col md={3} className="text-md-right">
-                  <strong>Nationality:</strong>
-                </Col>
-                <Col md={9} className="text-md-left">
-                  {props.nationality}
-                </Col>
-              </Row>
-              <Row>
-                <Col md={3} className="text-md-right">
-                  <strong>Position:</strong>
-                </Col>
-                <Col md={9} className="text-md-left">
-                  {props.position}
-                </Col>
-              </Row>
-              <Row>
-                <Col md={3} className="text-md-right">
-                  <strong>Bio:</strong>
-                </Col>
-                <Col md={9} className="text-md-left">
-                  {props.biography}
-                </Col>
-              </Row>
-              <h3 className="static-heading">Statistics</h3>
-              <Row>
-                <Col md={3} className="text-md-right">
-                  <strong>Matches:</strong>
-                </Col>
-                <Col md={9} className="text-md-left">
-                  {props.matches}
-                </Col>
-              </Row>
-              <Row>
-                <Col md={3} className="text-md-right">
-                  <strong>Goals:</strong>
-                </Col>
-                <Col md={9} className="text-md-left">
-                  {props.goals}
-                </Col>
-              </Row>
-              <Row>
-                <Col md={3} className="text-md-right">
-                  <strong>Assists:</strong>
-                </Col>
-                <Col md={9} className="text-md-left">
-                  {props.assists}
-                </Col>
-              </Row>
-              <Row>
-                <Col md={3} className="text-md-right">
-                  <strong>Yellow Card:</strong>
-                </Col>
-                <Col md={9} className="text-md-left">
-                  {props.yellow_card}
-                </Col>
-              </Row>
-              <Row>
-                <Col md={3} className="text-md-right">
-                  <strong>Red Card:</strong>
-                </Col>
-                <Col md={9} className="text-md-left">
-                  {props.red_card}
-                </Col>
-              </Row>
-            </div>
-          </Col>
-        </Row>
-      </Container>
-    </div>
-  )
+return (
+  <div className='TeamPlayers'>
+    <div className="col-7">
+          <div className="player_info ">
+          <img style={{height: "200px", width: "200px", paddingLeft: '20%'}} src={props.images} alt=""/>
+          <h6 className="player_name text-center"><strong>Name:</strong> {props.name}</h6>
+          <h6 className='text-center'><strong>age:</strong> {props.age}</h6>
+          <h6 className='text-center'><strong>nationality:</strong> {props.nationality}</h6>
+          <h6 className='text-center'><strong>position:</strong> {props.position}</h6>
+          <h6 className='text-center'><strong>Bios:</strong> <br/>{props.biography}</h6>
+          <h3 className="static_heading text-center">Stastistics</h3>
+          <h6 className="static text-center"><strong>Matches:</strong> {props.matches}</h6>
+          <h6 className="static text-center"><strong>Goals:</strong> {props.goals}</h6>
+          <h6 className="static text-center"><strong>Assists:</strong> {props.assists}</h6>
+          <h6 className="static text-center"><strong>Yellow Card:</strong> {props.yellow_card}</h6>
+          <h6 className="static text-center"><strong>Red Card:</strong> {props.red_card}</h6>    
+      </div>
+      </div>
+  </div>
+)
 }
